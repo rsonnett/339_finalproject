@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorites</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class = "aboutme">
+    <div class = "me-container">
+        <a href = "#main" class = "skip-to-main-content-link">Skip to main content</a>
+        <div class = "me">
+        <nav>
+            <ul>
+                <li id="genres_title">
+                    <a href = "home.html">Home</a>
+                </li>
+                <li>
+                    <a href = "genres.html">Genres</a>
+                </li>
+                <li>
+                    <a href = "favorites.html">My Favorites</a>
+                </li>
+                <li>
+                    <a href = "me.html">About Me</a>
+                </li>
+            </ul>
+        </nav>
+        <main id = "main">
+            <h1>About Me</h1>
+            <div class = "photo1">
+                <img src = "photos/justme.jpg" alt = "girl in white hoodie, smiling.">
+            </div>
+            <div class = "nondancer">
+                <p>Hi! My name is Rachel Sonnett, a sophmore in the School of Information at the University of Michigan on the Information Analysis track. After I graduate, I am interested in analyzing data in order to create marketing strategies for brands and businesses. I am from Los Angeles, California and have a Golden Retriever, Ringo. I love surfing and just being anywhere near the ocean, fashion, and hiking!</p>
+            </div>
+            <h1>About Me as a Dancer</h1>
+            <div class = "dancerme">
+                <div class = "mephotos1">
+                    <img src = "photos/young.JPG" alt = "young girl in pink dance costume smiling">
+                </div>
+                <p> I have been a dancer since I was two years old. Dance has been my life long passion, and I am trained in Ballet, Jazz, Tap, Musical Theater, Modern, and Hip Hop. I have been apart of a dance studio up until I graduated High School where I would train for over 15 hours a week in all these styles. I would say my favorite style is either Hip Hop or contemporary. I was always pushing myself at dance, always wanting to learn the newest trick or doing an extra turn, but as I came to college, I have found choreographing and teaching to be a newfound passion. At U of M I am in a Hip Hop dance club named Encore, where I love to choreograph and be apart of the creation of our sets. Encore performs about twice a year, so I still have that in my life, but defintely not as much as I did growing up. Dance has truly made me who I am, and it has always been wehre I felt most confident, and most myself. I believe that dance is another language where people can express themselves in ways that are not possible otherwise.</p>
+                <div class = "mephotos2">
+                    <img src = "photos/seniors.jpg" alt = "dancers on stage hugging in a circle">
+                    <img src = "photos/modern.JPG" alt = "young girl on stage in purple dance costume">
+                    <img src = "photos/rochelle.JPG" alt = "young girl on stage in grey dance costume">
+                </div>
+            </div>
+            <script src="js/video.js"></script>
+        </main>
+    </div>
+    <h3 id="contact-heading">Send me a Message!</h3>
+    <form action="https://formspree.io/f/xyyrlprv" method = "post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="name">
+        <label for="subject">Message</label>
+        <textarea id="subject" name="subject" placeholder="Your message" style="height:200px"></textarea>
+  
+        <input type="submit" value="Send!">
+    </form>
+    <footer>
+        <p>Rachel Sonnett</p>
+        <p>SI 339 Final Project ©</p>
+    </footer>
+</body>
+</html>
