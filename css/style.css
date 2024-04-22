@@ -48,6 +48,11 @@ h2, h3{
     color: white;
     font-size: 38px;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
 video{
@@ -71,6 +76,7 @@ video{
     display: inline;
     padding: 5px;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
   }
 
   h3{
@@ -81,7 +87,7 @@ video{
     font-family: Tahoma, Geneva, Verdana, sans-serif;
   }
   
-  h2:before{
+  .genres h2:before{
     content:"";
     z-index:-1;
     left:0em;
@@ -96,7 +102,7 @@ video{
     transform:rotate(2deg);
     border-radius:0.25em;
   }
-  h2:after{
+  .genres h2:after{
     content:"";
     z-index:-1;
     left:0em;
@@ -112,7 +118,7 @@ video{
     border-radius:0.25em;
   }
 
-h2:hover, .s-rank-border:hover, .blackandgold-border:hover, .missingyou-border:hover{
+.genres h2:hover{
     font-size: 55px;
 }
 .s-rank-border, .blackandgold-border, .missingyou-border{
@@ -376,7 +382,6 @@ label{
         height: 300px;
         width: 400px;
     }
-
     h2, h1{
         margin-left: 50px;
     }

@@ -71,7 +71,7 @@ let pageUrl = window.location.href;
 		videoPlayer.pause();
 	  });
   
-  }
+}
 
 document.getElementById('play-video-btn6').addEventListener('click', function() {
 	var videoContainer = document.getElementById('video-container6');
